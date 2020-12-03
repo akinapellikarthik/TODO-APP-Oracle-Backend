@@ -10,5 +10,5 @@ CREATE TABLE todo_db.todo (
 CREATE TABLE todo_db.todousers (
     userid INTEGER UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(500),
-    password VARCHAR(500)
+    passwd VARCHAR(500)
 );
